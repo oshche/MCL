@@ -97,10 +97,8 @@ void Particle_move(double dx,double dy,int Particle_count,vector<Particle>* part
 
 
 int main()
-{
-    Map_open();
-
-
+{   
+    vector<Wall> wall=Map_open();
 }
 
 
